@@ -90,21 +90,24 @@ body {
 .bottom-nav ul {
     align-items: center;
     clear: both;
-    /* display: flex;
-    justify-content: space-around; */
     margin-top: 15px;
     max-width: 1250px;
     list-style: none;
 }
 
-.bottom-nav ul li {
-    border-left: 1px solid lightgrey;
-    padding: 0 25px;
+.bottom-nav ul li a{
+    border-right: 1px solid lightgrey;
+    padding-right: 25px; 
+}
+
+.fa-search {
+    margin-left: 5px;
 }
 
 .bottom-nav ul li a {
     color: black;
-    font-size: 19px;
+    font-size: 17px;
+    font-weight: bold;
     line-height: 24px;
     text-align: center;
     text-decoration: none;
@@ -112,6 +115,7 @@ body {
 
 #navListFirst {
     border: none;
+    margin-right: 20px;
 }
 
 .bottom-nav::before {
@@ -128,6 +132,7 @@ body {
 
 .bottom-nav {
     margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 /*Main content top left*/
