@@ -12,7 +12,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container wrapper">
+    <div class="container nav-wrapper">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid justify-content-between">
           <div class="navbar-nav justify-content-start time">
@@ -27,7 +27,7 @@
               aria-controls="navbarSupportedContent" aria-expanded = "false" aria-label="Toggle navigation">
             </button>
           </div>
-  
+
         </div>
     </nav>
     <nav class="bottom-nav navbar-expand-lg">
@@ -40,14 +40,16 @@
                 <li class="nav-item"><a href="#">Sports</a></li>
                 <li class="nav-item"><a href="#">Health</a></li>
                 <li class="nav-item"><a href="#">Opinion</a></li>
-                <li class="nav-item"><a href="#">Vantage</a></li>
+                <li  class="nav-item"><a id="no-padding" href="#">Vantage</a></li>
                 <li id="navListFirst" class="src nav-item">Search<i class="fa fa-search" style="font-size:18px;color:black"></i></li>
             </ul>
             <div class="red-line"></div>
         </nav>
+    </div>
+    <div class="container main-wrapper">
         <main class="col-lg-12 main-container main-section">
             <div class="row">
-
+    
                 <!-- LEFT COLUMN  -->
 
                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 order-2 order-md-1">
@@ -726,8 +728,38 @@
                     </figure>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <h2 class="col-lg-8 col-md-12 header-sub">SUBSCRIBE</h2>
+                    <div class="subscribe">
+                        <figure class="subscribe-figure">
+                            <img src="images/cover1.jpg" alt="cover1">
+                            <img id="cover2" src="images/cover2.jpg" alt="cover1">
+                            <figcaption>
+                                <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                                <p>All Access + Weekly Delivery.<br>
+                                Choose A Membership That's Perfect for You!</p>
+                                <a href="#">SUBSCRIBE > </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h2 class="col-lg-4 col-md-12 header-sub">NEWSLETTER</h2>
+                    <div class="newsletter">
+                        <figure class="newsletter-figure">
+                            <img src="images/newsletter.gif" alt="newsletter">
+                            <figcaption>
+                                <h2>Daily Briefing</h2>
+                                <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                                <a href="#">SIGN UP > </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </main>
-
+    </div>
 
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
