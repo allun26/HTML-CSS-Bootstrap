@@ -666,8 +666,8 @@ body {
 /* FOOTER */
 
 footer {
+    background-color: #fff;
 	border-top: 2px solid #f4f5f6;
-	background-color: #fff;
 	padding-top: 30px;
 }
 
@@ -708,20 +708,15 @@ footer {
 }
 
 .leaf {
+    cursor: pointer;
 	border-right: 1px solid #d9d9d9;
-	padding-right: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	cursor: pointer;
+    padding-right: 10px;
 }
 
 .leaf:hover {
 	color: #000;
-}
-
-#right {
-	text-align: right;
-	padding: 0;
 }
 
 .last {
