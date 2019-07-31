@@ -16,6 +16,7 @@ body {
     background-color: #f4f5f6;
 } 
 
+
 .nav-wrapper {
     background-color: white;
     max-width: 1300px;
@@ -28,11 +29,59 @@ body {
 
 }
 
+/* HIDDEN NAVBAR */
+
+.hidden-nav {
+    background-color: #f72210;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.hidden-nav-logo {
+    height: 21px;
+    width: 132px;
+}
+
+
+.hidden-nw-btn {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 6px 12px;
+}
+
+.hidden-nw-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hidden-nw-btn-white {
+    background-color: white;
+    color: #f72210;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 3px 12px;
+}
+
+.hidden-nw-btn-white:hover {
+    color: #f72210;
+    text-decoration: none;
+}
 
 /* NAVBAR */
 
 .navbar {
     background-color: #f72210;
+    z-index: 2;
 }
 
 .navbar-brand img {
@@ -141,6 +190,20 @@ body {
 .bottom-nav {
     margin-bottom: 30px;
     padding-bottom: 15px;
+}
+
+@media  (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+    
+    .bottom-nav {
+        display: none;
+    }
+
+    main {
+        padding-top: 50px;
+    }
 }
 
 /*Main content top left*/
@@ -471,6 +534,7 @@ body {
     .newsletter-figure img {
         height: 210px;
     }
+
 }
 
 .newsletter-figure figcaption {
@@ -589,6 +653,8 @@ body {
         width: 100%;
      }
      .newsletter-figure figcaption{
+        border: 1px solid lightgray;
+        border-top: none;
         text-align: center;
      }
      .newsletter-figure figcaption h2{
