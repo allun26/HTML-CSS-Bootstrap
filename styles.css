@@ -676,14 +676,14 @@ footer {
 }
 
 .logo-footer > img {
-	width: 236px;
-	height: 36px;
 	fill: #f72210;
+    height: 36px;
+    width: 236px;
 }
 
 .copyright {
+    padding-left: 10px;
 	vertical-align: bottom;
-	padding-left: 10px;
 }
 
 .media-icons {
@@ -691,20 +691,20 @@ footer {
 }
 
 .media-icons > i {
-	vertical-align: bottom;
+    color: #666;
 	font-size: 25px;
-	color: #666;
 	padding-left: 7px;
+    vertical-align: bottom;
 }
 
 .menu {
+    color: #666;
 	display: flex;
 	font-size: 14px;
 	line-height: 15px;
 	list-style: none;
-	margin: 0px;
-	color: #666;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .leaf {
@@ -721,7 +721,7 @@ footer {
 
 #right {
 	text-align: right;
-	padding: 0px;
+	padding: 0;
 }
 
 .last {
