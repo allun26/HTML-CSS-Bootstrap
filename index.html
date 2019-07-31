@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container wrapper">
+    <div class="container nav-wrapper">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid justify-content-between">
           <div class="navbar-nav justify-content-start time">
@@ -26,30 +27,32 @@
               aria-controls="navbarSupportedContent" aria-expanded = "false" aria-label="Toggle navigation">
             </button>
           </div>
-  
+
         </div>
     </nav>
     <nav class="bottom-nav navbar-expand-lg">
-            <ul>
-                <li id="navListFirst"><a href="#">U.S.</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Tech & Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">Opinion</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li class="src">Search<i class="fas fa-search"></i></li>
+            <ul class="nav justify-content-around">
+                <li class="nav-item"><a href="#">U.S.</a></li>
+                <li class="nav-item"><a href="#">World</a></li>
+                <li class="nav-item"><a href="#">Business</a></li>
+                <li class="nav-item"><a href="#">Tech & Science</a></li>
+                <li class="nav-item"><a href="#">Culture</a></li>
+                <li class="nav-item"><a href="#">Sports</a></li>
+                <li class="nav-item"><a href="#">Health</a></li>
+                <li class="nav-item"><a href="#">Opinion</a></li>
+                <li  class="nav-item"><a id="no-padding" href="#">Vantage</a></li>
+                <li id="navListFirst" class="src nav-item">Search<i class="fa fa-search" style="font-size:18px;color:black"></i></li>
             </ul>
             <div class="red-line"></div>
         </nav>
+    </div>
+    <div class="container main-wrapper">
         <main class="col-lg-12 main-container main-section">
             <div class="row">
-
+    
                 <!-- LEFT COLUMN  -->
 
-                <div class="col-3">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 order-2 order-md-1">
                     <section>
                         <h2 class="FSH2">FEATURED STORIES</h2>
                         <figure class="article1-figure">
@@ -87,92 +90,676 @@
                             </figcaption>
                         </figure>
                     </section>
+                    </div>
+
+                    <!-- MIDDLE COLUMN  -->
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 order-1 order-md-2">
+                        <section>
+                            <h2 class="FSH2">TOP STORY</h2>
+                            <figure class="article2-figure">
+                                <img class="article2-img" src="images/article2.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article1-h2">Baltimore Residents Respond to Trump Calling Their City a 'Rat and Rodent Infested Mess'</h2>
+                                    <p class="article1-p">"For someone who is so 'America first,' it's odd to be talking badly about an American city," one local told Newsweek.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <h2 class="FSH2">MORE STORIES</h2>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                        <section class="article3-section">
+                            <figure class="article3-figure">
+                                <img class="article3-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
+                                    <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                </figcaption>
+                            </figure>
+                        </section>
                 </div>
 
-                <!-- MIDDLE COLUMN  -->
-                <div class="col-5">
+                <!-- RIGHT COLUMN -->
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 order-3">
                     <section>
-                        <h2 class="FSH2">TOP STORY</h2>
-                        <figure class="article2-figure">
-                            <img class="article2-img" src="images/article2.png" alt="article">
+                        <h2 class="FSH2">OPINION</h2>
+                        <figure class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
                             <figcaption>
-                                <h2 class="article1-h2">Baltimore Residents Respond to Trump Calling Their City a 'Rat and Rodent Infested Mess'</h2>
-                                <p class="article1-p">"For someone who is so 'America first,' it's odd to be talking badly about an American city," one local told Newsweek.</p>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
                             </figcaption>
                         </figure>
-                    </section>
-                    <h2 class="FSH2">MORE STORIES</h2>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
+                        <figure class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
                             <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
+                            </figcaption>
+                        </figure> 
+                        <figure class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
+                            <figcaption>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
                             </figcaption>
                         </figure>
-                    </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
+                        <figure class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
                             <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
                             </figcaption>
                         </figure>
-                    </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
+                        <figure class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
                             <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
                             </figcaption>
                         </figure>
-                    </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
+                        <figure id="article4-lastfigure" class="article4-figure">
+                            <img class="article4-img" src="images/robert-walker.png" alt="article">
                             <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                <h2 class="article3-h2">Drain Big Money Out of Politics. Overturn Citizens United. Pass the 28th</h2>
+                                <p class="article4-author">BY JEFF CLEMENTS</p>
                             </figcaption>
-                        </figure>
+                        </figure>   
                     </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
+                    <section>
+                        <h2 class="FSH2">LATEST NEWS</h2>
+                        <figure class="article5-figure">
+                            <img class="article5-img" src="images/article3.png" alt="article">
                             <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
+                                <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
                             </figcaption>
-                        </figure>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure> 
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>
+                            <figure class="article5-figure">
+                                <img class="article5-img" src="images/article3.png" alt="article">
+                                <figcaption>
+                                    <h2 class="article3-h2">What's Coming to Amazon Prime Video in August 2019?</h2>
+                                </figcaption>
+                            </figure>  
                     </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
-                            <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
-                            </figcaption>
-                        </figure>
-                    </section>
-                    <section class="article3-section">
-                        <figure class="article3-figure">
-                            <img class="article3-img" src="images/article3.png" alt="article">
-                            <figcaption>
-                                <h2 class="article3-h2">China Condemns 'Horrendous Incidents' in Hong Kong in Rare Public Statement</h2>
-                                <p class="article3-p">A Chinese official blamed the protesters for undermining Hong Kong's stability and prosperity through weeks of continuous demonstrations.</p>
-                            </figcaption>
-                        </figure>
-                    </section>
+                </div>
             </div>
-            <div class="col-3">
-                <section>
-                    
-                </section>
+
+            <!-- IN THE MAGAZINE -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 align-self-center">
+                    <figure class="magazine1-figure">
+                        <img class="magazine1-img" src="images/magazine1.png" alt="magazine">
+                        <figcaption>
+                            <a href="#">SEE ALL FEATURES > </a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9">
+                    <div class="magazine-logo">
+                        <img class="Nlogo"src="images/logo-n1.svg" alt="logo">
+                        <h2 class="magazine-header">IN THE MAGAZINE</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <figure class="magazine2-figure">
+                                <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                                <figcaption>
+                                    <div class="magazine2-toplink">
+                                        <p>FEATURES</p>
+                                        <a href="#">WORLD</a>
+                                    </div>
+                                    <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <figure class="magazine2-figure">
+                                <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                                <figcaption>
+                                    <div class="magazine2-toplink">
+                                        <p>FEATURES</p>
+                                        <a href="#">WORLD</a>
+                                    </div>
+                                    <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <figure class="magazine2-figure">
+                                <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                                <figcaption>
+                                    <div class="magazine2-toplink">
+                                        <p>FEATURES</p>
+                                        <a href="#">WORLD</a>
+                                    </div>
+                                    <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- IN THE MAGAZINE BOTTOM -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3">
+                    <figure class="magazine2-figure">
+                        <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                        <figcaption>
+                            <div class="magazine2-toplink">
+                                <p>FEATURES</p>
+                                <a href="#">WORLD</a>
+                            </div>
+                            <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
+                    <figure class="magazine2-figure">
+                        <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                        <figcaption>
+                            <div class="magazine2-toplink">
+                                <p>FEATURES</p>
+                                <a href="#">WORLD</a>
+                            </div>
+                            <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
+                    <figure class="magazine2-figure">
+                        <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                        <figcaption>
+                            <div class="magazine2-toplink">
+                                <p>FEATURES</p>
+                                <a href="#">WORLD</a>
+                            </div>
+                            <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
+                    <figure class="magazine2-figure">
+                        <img class="magazine2-img" src="images/magazine2.png" alt="magazine">
+                        <figcaption>
+                            <div class="magazine2-toplink">
+                                <p>FEATURES</p>
+                                <a href="#">WORLD</a>
+                            </div>
+                            <a class="magazine-bottomlink" href="#">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- EDITORS PICK -->
+            <div class="row">
+                <div class="editors-logo col-12">
+                    <img class="Nlogo"src="images/logo-n1.svg" alt="logo">
+                    <h2 class="magazine-header">EDITOR'S PICK</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="editors-figure">
+                        <img class="editors-img" src="images/editors.png" alt="editors-pick">
+                        <figcaption>
+                            <a href="#">Baltimore Christian Leaders Condemn Donald Trump Over Attacks</a>
+                            <p>"Good leaders lift up, call people together, and bring out the best in them. Slamming individuals and whole communities is not leadership; it's regression," said the coalition of Baltimore religious leaders.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- FEATURES SLIDESHOWS -->
+
+            <div class="row">
+                <div class="editors-logo col-12">
+                    <img class="Nlogo"src="images/logo-n1.svg" alt="logo">
+                    <h2 class="magazine-header">FEATURED SLIDESHOWS</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>    
+                        </figcaption>
+                    </figure>
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>                            
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>    
+                        </figcaption>
+                    </figure>
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>                            
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>    
+                        </figcaption>
+                    </figure>
+                    <figure class="slideshows-figure">
+                        <img class="editors-img" src="images/slideshow.png" alt="slideshows">
+                        <figcaption>
+                            <a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a>                            
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- US -->
+            <div class="row">
+                <h2 class="col-12 header-us">U.S.</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- WORLD -->
+            <div class="row">
+                <h2 class="col-12 header-us">World</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="col-12 header-us">Business</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="col-12 header-us">Tech & Science</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="col-12 header-us">Culture</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="col-12 header-us">Sport</h2>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <figure class="slideshows-figure col-xs-12 col-sm-12 col-md-4">
+                    <img class="editors-img" src="images/US.png" alt="US">
+                    <figcaption>
+                        <a href="#">'Obama and Biden' Trend After Fake, Satirical Jim Jordan Quote Goes Viral</a>                            
+                    </figcaption>
+                </figure>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                    <hr>
+                    <figure class="US-figure">
+                        <img src="images/US2.png" alt="US2">
+                        <figcaption>
+                            <a href="#">Capital One Says No Social Security Numbers Compromised...Except 140,000</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <h2 class="col-lg-8 col-md-12 header-sub">SUBSCRIBE</h2>
+                    <div class="subscribe">
+                        <figure class="subscribe-figure">
+                            <img src="images/cover1.jpg" alt="cover1">
+                            <img id="cover2" src="images/cover2.jpg" alt="cover1">
+                            <figcaption>
+                                <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                                <p>All Access + Weekly Delivery.<br>
+                                Choose A Membership That's Perfect for You!</p>
+                                <a href="#">SUBSCRIBE > </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h2 class="col-lg-4 col-md-12 header-sub">NEWSLETTER</h2>
+                    <div class="newsletter">
+                        <figure class="newsletter-figure">
+                            <img src="images/newsletter.gif" alt="newsletter">
+                            <figcaption>
+                                <h2>Daily Briefing</h2>
+                                <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                                <a href="#">SIGN UP > </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
         </main>
-
+    </div>
 
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
