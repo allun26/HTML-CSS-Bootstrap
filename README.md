@@ -4,9 +4,9 @@ Newsweek Clone using Bootstrap.
 
 The goal was to reproduce the Newsweek page using:
 
-*HTML
-*CSS
-*Bootstrap
+- HTML
+- CSS
+- Bootstrap
 
 [Livepage](https://allun26.github.io/HTML-CSS-Bootstrap/)
 
